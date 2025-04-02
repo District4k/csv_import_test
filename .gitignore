@@ -1,0 +1,43 @@
+# .env file for environment variables
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment folders
+venv/
+env/
+*.env/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files (if not needed)
+docker-compose.override.yml
+*.docker
+
+# Build and distribution directories
+dist/
+build/
+*.egg-info/
+
+# .envrc (direnv)
+.envrc
+
+# Other custom files you want to ignore
