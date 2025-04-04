@@ -5,5 +5,5 @@ COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["celery", "-A", "app", "worker", "--loglevel=info"]
+CMD ["celery", "-A", "myproject", "worker", "--loglevel=info"]
 
